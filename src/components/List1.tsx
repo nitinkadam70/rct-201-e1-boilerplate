@@ -17,7 +17,7 @@ const List1 = (props: List1Props) => {
     <div data-testid="list1">
       <h3 data-testid="list1-label">{props.label}</h3>
       {/* Iterate List and wrap the element div below inside */}
-      <div data-testid="list1-element">{props.list.join(" ")}</div>
+      <div data-testid="list1-element">{props.list}</div>
 
 
 

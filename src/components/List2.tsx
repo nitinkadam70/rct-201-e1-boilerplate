@@ -19,7 +19,7 @@ const List2 = (props: List2Props) => {
       <h3 data-testid="list2-label">{props.label}</h3>
 
       {/* Iterate List and wrap the element div below inside */}
-      <div data-testid="list2-element">{props.list.join(" ")}</div>
+      <div data-testid="list2-element">{props.list}</div>
 
       <input data-testid="list2-input" onChange={(e) => setText(e.target.value)} />
       <button data-testid="list2-btn-append-end" onClick={() => props.appendStart(text)}>
